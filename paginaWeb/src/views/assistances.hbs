@@ -1,0 +1,28 @@
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellidos</th>
+                <th scope="col">Dni</th>
+                <th scope="col">Asistencias</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            {{#each participants}}
+
+            <tr>
+                <td>{{name}}</td>
+                <td>{{lastName}}</td>
+                <td>{{dni}}</td>
+                <td>{{assistance}}</td>
+            </tr>
+
+            {{/each}}
+
+
+
+        </tbody>
+    </table>
+</div>
